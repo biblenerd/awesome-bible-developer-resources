@@ -1,4 +1,4 @@
-# Awesome Bible Developer Resources  ![Awesome](https://awesome.re/badge.svg)
+# Awesome Bible Developer Resources  ![Awesome](https://awesome.re/badge.svg). [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 A curated list of awesome resources for developers (and other nerds) working with biblical texts and related tools.
 
@@ -15,7 +15,7 @@ A curated list of awesome resources for developers (and other nerds) working wit
 
 ## Formats
 
-*Formats used specifically for storing biblical texts and associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.). Does not include common technical formats used in multiple domains that are sufficiently documented elsewhere (e.g., CSV, SQLite, etc.).*
+*Formats used specifically for storing biblical texts and associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.). Does not include common technical formats used in multiple domains that are sufficiently documented elsewhere (e.g., CSV, XML, JSON, SQLite, etc.).*
 
 ### CATSS
 
@@ -40,6 +40,9 @@ Text-Fabric is a format and accompanying Python library / API for working with a
 - [`tf` package documentation](https://annotation.github.io/text-fabric/tf/index.html) &mdash; Docs for `tf` Python package.
 
 ### USFM
+
+
+
 ### USFX
 ### USX
 ### Zefania
