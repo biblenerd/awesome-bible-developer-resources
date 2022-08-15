@@ -26,6 +26,7 @@ There are a couple options for contributing:
   - Terminate descriptions with appropriate punctuation (which will almost always be a period: `.`).
   - Do not include trailing white space (except for one blank line at the end of the file).
   - Do not change line endings (be aware if your text editor or `git` configuration does this automatically).
+  - Where known and not simply a copyright, [include the applicable badge for the license(s) associated with the resource(s)](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).
 
 Self-promotion is generally frowned upon and will be more critically scrutinized, but your proposal may be accepted if it meets the guidelines.
 
