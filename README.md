@@ -17,6 +17,8 @@ A curated list of awesome resources for developers (and other nerds) working wit
   - [USFX](#usfx)
   - [USX](#usx)
   - [Zefania](#zefania)
+- [Biblical Corpora](#biblical-corpora)
+  - [Mixed Repositories](#mixed-repositories)
 
 
 ## Formats
@@ -93,3 +95,22 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 Simplistic XML format for Bible translations.
 
 - [Zefania Bible Modules SourceForge Repository](https://sourceforge.net/projects/zefania-sharp/) &mdash; SourceForge repo of Zefania Bible translations in a variety of languages.
+
+
+## Biblical Corpora
+
+*Biblical corpora (i.e., bible translations and primary source texts) in various formats.*
+
+### Hebrew
+
+TODO
+
+### Greek
+
+TODO
+
+### Mixed Repositories
+
+Repositories of multiple biblical corpora (i.e., doesn't fit into a single subcategory).
+
+- [Open Bibles](https://github.com/seven1m/open-bibles) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) *or* ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; GitHub repository of public domain and freely (libre) licensed Bibles in XML formats (including [USFX](#usfx), [OSIS](#osis), and [Zefania](#zefania)). Available English translations include KJV, BBE, OEB, and WEB. Also contains Hebrew Leningrad Codex, Clementine Latin Vulgate, and translations in other languages (e.g., several in Spanish, others in Cherokee, Dutch, Czech, Japanese, Portuguese, and Romanian).
