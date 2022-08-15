@@ -23,7 +23,7 @@ Computer Assisted Tools for Septuagint/Scriptural Studies (CATSS) by [The Intern
 
 - [Computer Assisted Tools for Septuagint/Scriptural Studies (CATSS) page](http://ccat.sas.upenn.edu/rak//catss.html) &mdash; Main page for CATSS with links to project's history, modules, bibliography, and related links.
 - [Center for Computer Analysis of Texts (CCAT) Gopher Materials](http://ccat.sas.upenn.edu/gopher/) &mdash; Texts and other materials.
-  - [CATSS Biblical Texts](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/) &mdash; Explicit link to biblical texts in CCAT Gopher text archives.
+  - [CATSS Biblical Texts](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/) &mdash; Explicit link to biblical texts in CCAT Gopher text archives. The various formats are explained within each relevant text's set of files (see, e.g., [an explanation of the Greek textual variants file format](https://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxvar/0-Explan.htm)).
 
 ### OSIS
 
@@ -33,6 +33,12 @@ Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society
 - [OSIS Tutorial](https://wiki.crosswire.org/OSIS_Tutorial) &mdash; Walks through creation of a basic OSIS XML document.
 
 ### Text-Fabric
+
+Text-Fabric is a format and accompanying Python library / API for working with ancient texts and associated linguistic annotations as annotated graphs. It can accept corpora in a variety of formats and convert these to TF format.
+
+- [Main GitHub repository](https://github.com/annotation/text-fabric) &mdash; Main repository for file format and API.
+- [`tf` package documentation](https://annotation.github.io/text-fabric/tf/index.html) &mdash; Docs for `tf` Python package.
+
 ### USFM
 ### USFX
 ### USX
