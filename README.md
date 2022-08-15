@@ -8,6 +8,7 @@ A curated list of awesome resources for developers (and other nerds) working wit
 ## Contents
 
 - [Formats](#Formats)
+  - [Conversion Tools](#conversion-tools)
   - [Comparisons](#comparisons)
   - [CATSS](#catss)
   - [OSIS](#osis)
@@ -15,17 +16,24 @@ A curated list of awesome resources for developers (and other nerds) working wit
   - [USFM](#usfm)
   - [USFX](#usfx)
   - [USX](#usx)
-- [Publishing](#publishing)
-  - [Conversion Tools](#conversion-tools)
+  - [Zefania](#zefania)
+
 
 ## Formats
 
 *Formats / encodings used specifically for storing biblical texts and/or associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.). Does not include common technical formats/types used in multiple domains that are sufficiently documented elsewhere (e.g., CSV, XML, JSON, SQLite, LaTeX, etc.).*
 
+### Conversion Tools
+
+- [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and DBL [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
+  - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
+
 ### Comparisons
 
 Which format(s) should you use for your next project?
 
+- Most biblical texts / translations are distributed in USFM and USX formats.
+- Some formats are only intended for biblical texts, whereas others can store texts themselves along with additional metadata, and others still are only for metadata, linguistic tagging, other annotations, etc. Be sure to review documentation for what each format supports.
 - [Bible File Encoding for Bible Translators, Publishers, and Software Developers](https://ebible.org/usfx/Bible-encoding.htm) by Kahunapule Michael Johnson
 
 ### CATSS
@@ -42,6 +50,9 @@ Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society
 
 - [CrossWire Bible Society OSIS page](https://crosswire.org/osis/) &mdash; Contains schema, manual, documentation, and tutorial.
 - [OSIS Tutorial](https://wiki.crosswire.org/OSIS_Tutorial) &mdash; Walks through creation of a basic OSIS XML document.
+- [eBible.org OSIS page](https://ebible.org/osis/) &mdash; Documentation of older version (2.1) of OSIS along with XSEM (precursor to OSIS) and OXES (closely-related format).
+- [SIL XML Scripture Encoding Model (XSEM)](https://scripts.sil.org/XSEM) ![Deprecated](https://img.shields.io/badge/-DEPRECATED-red) &mdash; Docs for deprecated XML format that was a precursor to OSIS.
+- [Open XML for Editing Scripture (OXES)](https://ebible.org/osis/oxes-documentation-2.0.3.pdf) ![Deprecated](https://img.shields.io/badge/-DEPRECATED-red) &mdash; Docs for OXES XML format which was closely related to OSIS.
 
 ### Text-Fabric
 
@@ -79,14 +90,6 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 
 ### Zefania
 
-![Deprecated](https://img.shields.io/badge/-DEPRECATED-red)
+Simplistic XML format for Bible translations.
 
-
-## Publishing
-
-*Resources related to publishing biblical texts and/or related resources to a variety of mediums.*
-
-### Conversion Tools
-
-- [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and DBL [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
-  - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
+- [Zefania Bible Modules SourceForge Repository](https://sourceforge.net/projects/zefania-sharp/) &mdash; SourceForge repo of Zefania Bible translations in a variety of languages.
