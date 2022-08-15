@@ -2,23 +2,31 @@
 
 A curated list of awesome resources for developers (and other nerds) working with biblical texts and related tools.
 
-| :memo:        | I've attempted to include badges for licenses for resources where known. When no badge is shown, assume the resource is copyright &copy; its respective author.       |
-|---------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :memo: :copyright: :registered: :tm:        | I've attempted to include badges for licenses for resources where known. When no badge is shown, assume the resource is copyright &copy; its respective author. The underlying corpora within resources may have separate licensing terms.       |
+|---------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Contents
 
 - [Formats](#Formats)
+  - [Comparisons](#comparisons)
   - [CATSS](#catss)
   - [OSIS](#osis)
   - [Text-Fabric](#text-fabric)
   - [USFM](#usfm)
   - [USFX](#usfx)
   - [USX](#usx)
-  - [Zefania](#zefania)
+- [Publishing](#publishing)
+  - [Conversion Tools](#conversion-tools)
 
 ## Formats
 
-*Formats used specifically for storing biblical texts and associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.). Does not include common technical formats used in multiple domains that are sufficiently documented elsewhere (e.g., CSV, XML, JSON, SQLite, etc.).*
+*Formats / encodings used specifically for storing biblical texts and/or associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.). Does not include common technical formats/types used in multiple domains that are sufficiently documented elsewhere (e.g., CSV, XML, JSON, SQLite, LaTeX, etc.).*
+
+### Comparisons
+
+Which format(s) should you use for your next project?
+
+- [Bible File Encoding for Bible Translators, Publishers, and Software Developers](https://ebible.org/usfx/Bible-encoding.htm) by Kahunapule Michael Johnson
 
 ### CATSS
 
@@ -47,16 +55,31 @@ Text-Fabric is a format and accompanying Python library / API for working with a
 Unified Standard Format Markers (USFM) was developed within [Paratext](https://paratext.org/) for Bible translations.
 
 - [Paratext USFM page](https://paratext.org/usfm/) &mdash; Main Paratext web page for USFM with a brief history of the format and links to its documentation and Paratext stylesheets.
-- [USFM GitHub Repository](https://github.com/ubsicap/usfm) &mdash; Main GitHub repo.
+- [USFM GitHub Repository](https://github.com/ubsicap/usfm) &mdash; Main USFM GitHub repo.
 - [USFM Documentation](http://ubsicap.github.io/usfm/) &mdash; USFM docs.
 - [USFM Tools](https://github.com/openenglishbible/USFM-Tools) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &mdash; Python tools for parsing and rendering USFM files.
 
 ### USFX
 
+Unified Scripture Format XML (USFX) is an XML format that was derived from [USFM](#usfm).
 
+- [USFX eBible.org main page](https://ebible.org/usfx/) &mdash; Main USFX page describing what it is, links to its schema and documentation, and how it differs from [USFM](#usfm), [USX](#usx), and [OSIS](#osis).
+- [USFX Schema Documentation](https://ebible.org/usfx/usfx.htm) &mdash; USFX schema docs.
 
 ### USX
 
-Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#usfm).
+Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#usfm). Used by [Paratext](https://paratext.org/) and the [DBL](https://thedigitalbiblelibrary.org).
 
-### Zefania
+- [USX GitHub Repository](https://github.com/ubsicap/usx) &mdash; Main USX GitHub repo.
+- [USX Documentation](https://ubsicap.github.io/usx/) &mdash; USX docs.
+- [Paratext USX page](https://markups.paratext.org/usx/) &mdash; Main Paratext web page for USFM with links to its documentation.
+- [Digital Bible Library (DBL)](https://thedigitalbiblelibrary.org) &mdash; United Bible Societies (UBS) online digital asset and licensing management platform. DBL gathers, validates, and safeguards a large collection of quality, standardized, digital Scripture texts and publication assets in hundreds of languages that are predominantly in USX format.
+
+
+## Publishing
+
+*Resources related to publishing biblical texts and/or related resources to a variety of mediums.*
+
+### Conversion Tools
+
+- [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and DBL [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
