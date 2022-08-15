@@ -30,7 +30,7 @@ Which format(s) should you use for your next project?
 
 ### CATSS
 
-Computer Assisted Tools for Septuagint/Scriptural Studies (CATSS) by [The International Organization for Septuagint and Cognate Studies (IOSCS)](http://ccat.sas.upenn.edu/ioscs/) at University of Pennsylvania.
+Computer Assisted Tools for Septuagint/Scriptural Studies (CATSS) by [The International Organization for Septuagint and Cognate Studies (IOSCS)](http://ccat.sas.upenn.edu/ioscs/) at University of Pennsylvania. This format was used explicitly for the CCAT Project, but is referenced as these are high quality resources (especially for Greek Bible studies including the LXX).
 
 - [Computer Assisted Tools for Septuagint/Scriptural Studies (CATSS) page](http://ccat.sas.upenn.edu/rak//catss.html) &mdash; Main page for CATSS with links to project's history, modules, bibliography, and related links.
 - [Center for Computer Analysis of Texts (CCAT) Gopher Materials](http://ccat.sas.upenn.edu/gopher/) &mdash; Texts and other materials.
@@ -77,6 +77,10 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 - [Paratext USX page](https://markups.paratext.org/usx/) &mdash; Main Paratext web page for USFM with links to its documentation.
 - [Digital Bible Library (DBL)](https://thedigitalbiblelibrary.org) &mdash; United Bible Societies (UBS) online digital asset and licensing management platform. DBL gathers, validates, and safeguards a large collection of quality, standardized, digital Scripture texts and publication assets in hundreds of languages that are predominantly in USX format.
 
+### Zefania
+
+![Deprecated](https://img.shields.io/badge/-DEPRECATED-red)
+
 
 ## Publishing
 
@@ -85,4 +89,4 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 ### Conversion Tools
 
 - [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and DBL [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
-  - [Haiola GitHb Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
+  - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
