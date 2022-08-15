@@ -20,7 +20,7 @@ There are a couple options for contributing:
 
 - [Create a new issue](https://github.com/biblenerd/awesome-bible-developer-resources/issues/new/choose) with your proposed change(s). If approved, I'll apply it/them after reviewing the issue.
 - Submit a pull request with your proposed change(s).
-  - Follow the existing formatting (don't substantively change the formatting of existing or new items).
+  - Follow the existing Markdown formatting (don't substantively change the formatting of existing or new items).
   - Check your grammar and spelling.
   - Keep descriptions concise, straightforward, and unbiased.
   - Terminate descriptions with appropriate punctuation (which will almost always be a period: `.`).
