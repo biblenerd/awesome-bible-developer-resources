@@ -61,7 +61,9 @@ Unified Standard Format Markers (USFM) was developed within [Paratext](https://p
 
 ### USFX
 
-Unified Scripture Format XML (USFX) is an XML format that was derived from [USFM](#usfm). [![License: LGPL v2,1+](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) || [![License: Common Public License 0.5+](https://img.shields.io/badge/License-CPL_0.5-red.svg)](https://www.eclipse.org/legal/cpl-v05.html)
+Unified Scripture Format XML (USFX) is an XML format that was derived from [USFM](#usfm). 
+
+[![License: LGPL v2,1+](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) *or* [![License: Common Public License 0.5+](https://img.shields.io/badge/License-CPL_0.5-red.svg)](https://www.eclipse.org/legal/cpl-v05.html) (see [LICENSING.txt](https://ebible.org/usfx/LICENSING.txt)).
 
 - [USFX eBible.org main page](https://ebible.org/usfx/) &mdash; Main USFX page describing what it is, links to its schema and documentation, and how it differs from [USFM](#usfm), [USX](#usx), and [OSIS](#osis).
 - [USFX Schema Documentation](https://ebible.org/usfx/usfx.htm) &mdash; USFX schema docs.
