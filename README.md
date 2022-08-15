@@ -1,4 +1,4 @@
-# Awesome Bible Developer Resources  ![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Bible Developer Resources  ![Awesome](https://awesome.re/badge.svg)]
 
 A curated list of awesome resources for developers (and other nerds) working with biblical texts and related tools.
 
