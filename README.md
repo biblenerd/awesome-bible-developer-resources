@@ -1,6 +1,9 @@
-# Awesome Bible Developer Resources  ![Awesome](https://awesome.re/badge.svg). [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+# Awesome Bible Developer Resources  ![Awesome](https://awesome.re/badge.svg)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 A curated list of awesome resources for developers (and other nerds) working with biblical texts and related tools.
+
+| :memo:        | I've attempted to include badges for licenses for resources where known. When no badge is shown, assume the resource is copyright &copy; its respective author.       |
+|---------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Contents
 
@@ -41,8 +44,19 @@ Text-Fabric is a format and accompanying Python library / API for working with a
 
 ### USFM
 
+Unified Standard Format Markers (USFM) was developed within [Paratext](https://paratext.org/) for Bible translations.
 
+- [Paratext USFM page](https://paratext.org/usfm/) &mdash; Main Paratext web page for USFM with a brief history of the format and links to its documentation and Paratext stylesheets.
+- [USFM GitHub Repository](https://github.com/ubsicap/usfm) &mdash; Main GitHub repo.
+- [USFM Documentation](http://ubsicap.github.io/usfm/) &mdash; USFM docs.
+- [USFM Tools](https://github.com/openenglishbible/USFM-Tools) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &mdash; Python tools for parsing and rendering USFM files.
 
 ### USFX
+
+
+
 ### USX
+
+Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#usfm).
+
 ### Zefania
