@@ -19,6 +19,7 @@ A curated list of awesome resources for developers (and other nerds) working wit
 - [Biblical Corpora](#biblical-corpora)
   - [Hebrew](#hebrew)
   - [Greek](#greek)
+  - [English Translations](#english-translations)
   - [Mixed Repositories](#mixed-repositories)
 - [Other Awesome Lists](#other-awesome-lists)
 
