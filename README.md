@@ -20,7 +20,7 @@ A curated list of awesome resources for developers (and other nerds) working wit
   - [Hebrew](#hebrew)
   - [Greek](#greek)
   - [English Translations](#english-translations)
-  - [Mixed Repositories](#mixed-repositories)
+  - [Mixed Corpora](#mixed-corpora)
 - [Other Awesome Lists](#other-awesome-lists)
 
 
@@ -119,7 +119,7 @@ Simplistic XML format for Bible translations.
 - [New English Translation of the Septuagint (NETS)](https://ccat.sas.upenn.edu/nets/) &mdash; Translation of LXX under Computer Assisted Tools for Septuagint Studies (CATSS) Project. Distributed as [PDF files](https://ccat.sas.upenn.edu/nets/edition/) and also available in print.
 - [Open English Bible](https://openenglishbible.org) [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) &mdash; A public domain revision of [the Twentieth Century New Testament](https://github.com/openenglishbible/usfm-bibles/tree/master/Twentieth%20Century%20New%20Testament), which was a translation of the New Testament published in the early twentieth century based on the Greek text of Westcott and Hort. Available in [USFM](#usfm) and user-friendly format; has associated [GitHub repo](https://github.com/openenglishbible/Open-English-Bible).
 
-### Mixed Repositories
+### Mixed Corpora
 
 Repositories of multiple biblical corpora (i.e., doesn't fit into any single subcategory).
 
