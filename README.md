@@ -21,6 +21,7 @@ A curated list of awesome resources for developers (and other nerds) working wit
   - [Hebrew](#hebrew)
   - [Greek](#greek)
   - [Mixed Repositories](#mixed-repositories)
+- [Other Awesome Lists](#other-awesome-lists)
 
 
 ## Formats
