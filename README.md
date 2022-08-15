@@ -8,8 +8,8 @@ A curated list of awesome resources for developers (and other nerds) working wit
 ## Contents
 
 - [Formats](#Formats)
-  - [Conversion Tools](#conversion-tools)
   - [Comparisons](#comparisons)
+  - [Conversion Tools](#conversion-tools)
   - [CATSS](#catss)
   - [OSIS](#osis)
   - [Text-Fabric](#text-fabric)
@@ -23,11 +23,6 @@ A curated list of awesome resources for developers (and other nerds) working wit
 
 *Formats / encodings used specifically for storing biblical texts and/or associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.). Does not include common technical formats/types used in multiple domains that are sufficiently documented elsewhere (e.g., CSV, XML, JSON, SQLite, LaTeX, etc.).*
 
-### Conversion Tools
-
-- [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and [DBL](https://thedigitalbiblelibrary.org) [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
-  - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
-
 ### Comparisons
 
 Which format(s) should you use for your next project?
@@ -35,6 +30,11 @@ Which format(s) should you use for your next project?
 - Most biblical texts / translations are distributed in USFM and USX formats.
 - Some formats are only intended for biblical texts, whereas others can store texts themselves along with additional metadata, and others still are only for metadata, linguistic tagging, other annotations, etc. Be sure to review documentation for what each format supports.
 - [Bible File Encoding for Bible Translators, Publishers, and Software Developers](https://ebible.org/usfx/Bible-encoding.htm) by Kahunapule Michael Johnson
+
+### Conversion Tools
+
+- [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and [DBL](https://thedigitalbiblelibrary.org) [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
+  - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
 
 ### CATSS
 
