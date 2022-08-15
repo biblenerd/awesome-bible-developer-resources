@@ -10,7 +10,6 @@ A curated list of awesome resources for developers (and other nerds) working wit
 - [Formats](#Formats)
   - [Comparisons](#comparisons)
   - [Conversion Tools](#conversion-tools)
-  - [CATSS](#catss)
   - [OSIS](#osis)
   - [Text-Fabric](#text-fabric)
   - [USFM](#usfm)
