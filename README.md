@@ -6,8 +6,8 @@ A curated list of awesome resources for developers (and other nerds) working wit
 
 For **non-specialist enthusiasts** (like myself), it can be challenging to get started and understand what types of formats and datasets are available. This awesome list will (hopefully) assist folks in *getting started* and identifying helpful biblical resources. For **specialists**, sometimes it can be hard to find links to relevant resources and associated tools and documentation (not least because so many links become dead over time)&mdash;this can help find available resource information and serve as a reference for onboarding colleagues to projects working with biblical corpora.
 
-| :memo: :copyright: :registered: :tm:        | I've attempted to include badges for licenses for resources where known. When no badge is shown, assume the resource is copyright &copy; its respective author. The underlying corpora within resources may have separate licensing terms.       |
-|---------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :memo: :copyright: :registered: :tm:        | I've attempted to include badges for licenses for resources where known. When no badge is shown, assume the resource is copyright &copy; its respective author(s). The underlying corpora within resources may have separate licensing terms.       |
+|---------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Contents
 
@@ -39,8 +39,9 @@ Which format(s) should you use for your next project?
 
 *It depends* on your goals and requirements. Here is some (hopefully) helpful information as you deliberate:
 
+- Many formats predate Unicode standards and so may require specific fonts to render primary source languages. Modern formats should be Unicode-compliant.
 - Most biblical texts / translations used in the Bible translation field are distributed in [USFM](#usfm) and [USX](#usx) formats ([USFM](#usfm) is one of the oldest SFM formats used to digitally store biblical translations).
-- Many biblical primary source texts made available from academic centers/projects use [USFM](#usfm), [TEI](#tei), [Text-Fabric](#text-fabric), or plain text formats.
+- Many biblical primary source texts made available from academic centers/projects use [USFM](#usfm), [TEI](#tei), [Text-Fabric](#text-fabric), or plaintext formats.
 - Some formats are only intended for biblical texts, whereas others can store texts themselves along with additional metadata, and others still are only for metadata, linguistic tagging, other annotations, etc. Be sure to review documentation for what each format supports.
 - Article: [Bible File Encoding for Bible Translators, Publishers, and Software Developers](https://ebible.org/usfx/Bible-encoding.htm) by Kahunapule Michael Johnson
 
@@ -52,7 +53,7 @@ Which format(s) should you use for your next project?
 
 ### CES
 
-The Corpus Encoding Standard (CES) is in a SGML format (`ISO 8879:1986, Information Processing--Text and Office Systems--Standard Generalized Markup Language`) that is [TEI-compliant](#tei) and which is also available in XML format (XCES). CES is hosted by the Vassar College Department of Computer Science.
+The Corpus Encoding Standard (CES) is in a SGML format ([ISO 8879:1986](https://www.iso.org/standard/16387.html)) that is [TEI-compliant](#tei) and which is also available in XML format (XCES). CES is hosted by the Vassar College Department of Computer Science.
 
 - [CES Documentation](https://www.cs.vassar.edu/CES/) &mdash; Main CES docs.
 - [XML CES (XCES) Schema Documenation](https://www.cs.vassar.edu/XCES/schema/) &mdash; Main docs for XCES schema.
@@ -79,7 +80,7 @@ List of TEI resources:
 
 - [Text Encoding Initiative (TEI) main page](https://tei-c.org) &mdash; Main website for TEI.
 - [TEI Guidelines GitHub Repository](https://github.com/TEIC/TEI) [![License: CC+BY 3.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/3.0/) *and* [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) &mdash; GitHub repo for TEI guidelines.
-- [TEI XSL Stylesheets GitHub Repository](https://github.com/TEIC/Stylesheets) &mdash; GitHub repo with XSLT stylesheets to transform TEI XML documents to various formats, including XHTML, LaTeX, XSL Formatting Objects, ePub, plain text, RDF, JSON; and to/from Word OOXML (docx) and OpenOfice (odt).
+- [TEI XSL Stylesheets GitHub Repository](https://github.com/TEIC/Stylesheets) &mdash; GitHub repo with XSLT stylesheets to transform TEI XML documents to various formats, including XHTML, LaTeX, XSL Formatting Objects, ePub, plaintext, RDF, JSON; and to/from Word OOXML (docx) and OpenOfice (odt).
 - [TEI by Example](https://teibyexample.org) &mdash; Free tutorials for learning TEI XML.
 
 ### Text-Fabric
@@ -136,7 +137,7 @@ Simplistic XML format for Bible translations.
 - [OSIS Bibles](https://github.com/gratis-bible/bible) &mdash; A collection of freely licensed translations of biblical text in [OSIS format](#osis). Licensing varies per corpus. [Available Hebrew Bibles](https://github.com/gratis-bible/bible/tree/master/he) include Aleppo Codex, Biblia Hebraica Stuttgartensia (BHS), Open Scriptures Hebrew Bible (OSHB) tagged with Strong's numbers, and Westminster Leningrad Codex (WLC).
 - [STEPBible Data](https://github.com/STEPBible/STEPBible-Data) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Numerous open-licensed datasets containing tagged Hebrew and Greek biblical texts saved as tab-separated value (TSV) files.
 - [unfoldingWord&reg; Hebrew Bible (UHB)](https://www.unfoldingword.org/for-translators/content#UHB) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed, lexically tagged, morphologically parsed Hebrew Old Testament. Based on the [Open Scriptures Hebrew Bible](https://hb.openscriptures.org). Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/hbo_uhb/src/branch/master). Lots of [additional great resources for Bible translators](https://www.unfoldingword.org/for-translators/content) including comprehensive [translation notes](https://www.unfoldingword.org/for-translators/content#UTN), lexical resources, etc.
-- [Westminster Leningrad Codex (UXLC)](http://tanach.us) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Unicode/XML Leningrad Codex (UXLC). Available in XML format with [TEI](#tei) header [at tanach.us website](http://tanach.us/Pages/XMLFiles.html), along with [plain text](http://tanach.us/Pages/TextFiles.html), [HTML](http://tanach.us/Pages/HTMLFiles.html), and [other formats](http://tanach.us/Pages/About.html).
+- [Westminster Leningrad Codex (UXLC)](http://tanach.us) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Unicode/XML Leningrad Codex (UXLC). Available in XML format with [TEI](#tei) header [at tanach.us website](http://tanach.us/Pages/XMLFiles.html), along with [plaintext](http://tanach.us/Pages/TextFiles.html), [HTML](http://tanach.us/Pages/HTMLFiles.html), and [other formats](http://tanach.us/Pages/About.html).
 
 ### Greek
 
@@ -145,13 +146,25 @@ Simplistic XML format for Bible translations.
 #### LXX
 
 - [Computer Assisted Tools for Septuagint Studies (CATSS) page](http://ccat.sas.upenn.edu/rak//catss.html) &mdash; Main page for CATSS with links to project's history, modules, bibliography, and related links. By [The International Organization for Septuagint and Cognate Studies (IOSCS)](http://ccat.sas.upenn.edu/ioscs/) at University of Pennsylvania. The [CATSS Biblical Texts](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/) are available in the CCAT Gopher text archives. 
-  - [Morphological Analysis of the LXX](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/).
+  - [Morphological Analysis of the LXX](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/). There is also [a third-party tool](https://github.com/orenfromberg/lxxproject) that uses this data to generate a SQLite database with book, verse, and word number attributes as well as root and morphological data.
   - [LXX Greek Textual Variants](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxvar/) (and [format explanation](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxvar/0-Explan.htm)).
   - [Parallel Hebrew // Greek Text Module](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/).
 - [Swete LXX Text](https://github.com/sleeptillseven/LXX-Swete/) :construction: [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) &mdash; *Partially-completed* Swete's LXX text from [First1KGreek Project](https://opengreekandlatin.github.io/First1KGreek/) (with corrections against manuscripts).
 
 #### New Testament
 
+- [Robinson's Byzantine Text](https://byzantinetext.com) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Dr. Maurice A. Robinson's Greek texts (most with morphological parsing and Strong's numbers). Robinson uses his own format for text storage with custom parsing codes and tense-voice-mood numbers. [Documentation of this format is available](https://github.com/byztxt/robinson-documentation) along with [a library of Python tools for working with the format](https://github.com/byztxt/librobinson). Some of the notable Greek texts are listed in the below sublistings.
+  - **Byzantine Texts**
+    - [Antoniades Patriarchal Greek NT (PATr)](https://byzantinetext.com/study/editions/antoniades/) &mdash; The 1904 text authorized by the Eucumenical Patriarchate of Constantinople for Eastern Orthodox churches with the 1912 corrections by Professor Vasileios Antoniades of the Theological School of Chalki. [GitHub repo](https://github.com/byztxt/greektext-antoniades) contains plaintext and parsed versions with morphological parsing tags and Strong's numbers.
+    - [Elzevir Greek NT](https://byzantinetext.com/study/editions/elzevir/) &mdash; 1624 Elzevir Textus Receptus GNT edition. [GitHub repo](https://github.com/byztxt/greektext-elzevir) contains plaintext and parsed versions with morphological parsing tags and Strong's numbers.
+    - [Robinson-Pierpont Byzantine Majority Greek NT](https://byzantinetext.com/study/editions/robinson-pierpont/) &mdash; Robinson-Pierpont edition of the Greek New Testament in the Original Greek, Byzantine Majority Text. [GitHub repo](https://github.com/byztxt/byzantine-majority-text) and [ByzantineText.com](https://byzantinetext.com/study/editions/robinson-pierpont/) contain various formats including with morphological parsing and Strong's numbers, collations with other texts, and PDFs.
+    - [Scrivener Greek NT](https://byzantinetext.com/study/editions/scrivener/) &mdash; Frederick Henry Ambrose Scrivener's 1894 edition of the Textus Receptus GNT in a few formats. [GitHub repo]https://github.com/byztxt/greektext-scrivener) contains the text.
+    - [Stephanus Greek NT](https://byzantinetext.com/study/editions/stephanus/) &mdash; Stephanus 1550 edition of the Textus Receptus GNT published by Robert Estienne in a few formats. [GitHub repo](https://github.com/byztxt/greektext-stephens) contains the text.
+    - [Textus Receptus Greek NT](https://github.com/byztxt/greektext-textus-receptus) &mdash; Dr. Maurice A. Robinson's Textus Receptus Greek NT with morphological parsing tags and Strong's numbers.
+  - **Alexandrian Texts**
+    - [Westcott-Hort Greek NT](https://byzantinetext.com/study/editions/westcott-hort/) &mdash; Westcott and Hort's 1881 GNT. [GitHub repo](https://github.com/byztxt/greektext-westcott-hort) contains plaintext and parsed versions with morphological parsing tags and Strong's numbers.
+- [Society of Biblical Literature (SBL) Greek NT (SBLGNT)](https://sblgnt.com) &mdash; A freely-available (but [copyrighted](https://www.sblgnt.com/license/)) critically edited Greek New Testament encoded in a Unicode-compliant font. Made available by [Logos Bible Software](https://www.logos.com/product/8486/the-greek-new-testament-sbl-edition) and the SBL in [a variety of formats](https://sblgnt.com/download/) including XML, [OSIS](#osis), [SWORD module](https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=SBLGNT), plaintext, PDF, and more.
+  - [MorphGNT SBLGNT](https://github.com/morphgnt/sblgnt) [![License: CC BY-SA 3.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/3.0/) &mdash; Project to merge the MorphGNT morphological tagging analysis with the SBLGNT text. The text itself is subject to the [SBLGNT EULA](https://www.sblgnt.com/license/).
 - [STEPBible Data](https://github.com/STEPBible/STEPBible-Data) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Numerous open-licensed datasets containing tagged Hebrew and Greek biblical texts saved as tab-separated value (TSV) files.
 - [unfoldingWord&reg; Greek New Testament (UGNT)](https://www.unfoldingword.org/for-translators/content#UGNT) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed, lexically tagged, morphologically parsed critical Greek New Testament with full apparatus. Based on the [Bunning Heuristic Prototype (BHP)](https://github.com/greekcntr/BHP) Greek NT from the [Center for New Testament Restoration (CNTR)](https://greekcntr.org/home/index.htm). Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/el-x-koine_ugnt/src/branch/master). Lots of [additional great resources for Bible translators](https://www.unfoldingword.org/for-translators/content) including comprehensive [translation notes](https://www.unfoldingword.org/for-translators/content#UTN), lexical resources, etc.
 
