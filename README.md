@@ -11,6 +11,7 @@ A curated list of awesome resources for developers (and other nerds) working wit
   - [Comparisons](#comparisons)
   - [Conversion Tools](#conversion-tools)
   - [OSIS](#osis)
+  - [TEI](#tei)
   - [Text-Fabric](#text-fabric)
   - [USFM](#usfm)
   - [USFX](#usfx)
@@ -40,16 +41,32 @@ Which format(s) should you use for your next project?
 
 - [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and [DBL](https://thedigitalbiblelibrary.org) [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
   - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
+- [Converting SFM Bibles to OSIS](https://wiki.crosswire.org/Converting_SFM_Bibles_to_OSIS) &mdash; Wiki page discussing the conversion of [USFM](#usfm) to [OSIS](#osis) format.
 
 ### OSIS
 
-Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society. Used in [SWORD Project](https://crosswire.org/sword/index.jsp).
+Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society. Used in [SWORD Project](https://crosswire.org/sword/index.jsp) (along with [TEI](#tei)).
 
 - [CrossWire Bible Society OSIS page](https://crosswire.org/osis/) &mdash; Contains schema, manual, documentation, and tutorial.
 - [OSIS Tutorial](https://wiki.crosswire.org/OSIS_Tutorial) &mdash; Walks through creation of a basic OSIS XML document.
 - [eBible.org OSIS page](https://ebible.org/osis/) &mdash; Documentation of older version (2.1) of OSIS along with XSEM (precursor to OSIS) and OXES (closely-related format).
 - [SIL XML Scripture Encoding Model (XSEM)](https://scripts.sil.org/XSEM) ![Deprecated](https://img.shields.io/badge/-DEPRECATED-red) &mdash; Docs for XML format that was a precursor to OSIS.
 - [Open XML for Editing Scripture (OXES)](https://ebible.org/osis/oxes-documentation-2.0.3.pdf) ![Deprecated](https://img.shields.io/badge/-DEPRECATED-red) &mdash; Docs for OXES XML format which was closely related to OSIS.
+
+### TEI
+
+The Text Encoding Initiative (TEI) is a consortium which collectively develops and maintains an XML standard for the representation of texts in digital form. The TEI/XML standard is used by several notable content-based projects including:
+
+- [British National Corpus](http://www.natcorp.ox.ac.uk)
+- [Perseus Project](http://www.perseus.tufts.edu/)
+- [Oxford Text Archive](http://ota.ox.ac.uk/)
+
+List of TEI resources:
+
+- [Text Encoding Initiative (TEI) main page](https://tei-c.org) &mdash; Main website for TEI.
+- [TEI Guidelines GitHub Repository](https://github.com/TEIC/TEI) [![License: CC+BY 3.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/3.0/) *and* [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) &mdash; GitHub repo for TEI guidelines.
+- [TEI XSL Stylesheets GitHub Repository](https://github.com/TEIC/Stylesheets) &mdash; GitHub repo with XSLT stylesheets to transform TEI XML documents to various formats, including XHTML, LaTeX, XSL Formatting Objects, ePub, plain text, RDF, JSON; and to/from Word OOXML (docx) and OpenOfice (odt).
+- [TEI by Example](https://teibyexample.org) &mdash; Free tutorials for learning TEI XML.
 
 ### Text-Fabric
 
