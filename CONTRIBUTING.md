@@ -22,7 +22,7 @@ There are a couple options for contributing:
 - Submit a pull request with your proposed change(s).
   - Follow the existing Markdown formatting (don't substantively change the formatting of existing or new items).
   - Check your grammar and spelling.
-  - Keep descriptions concise, straightforward, and unbiased.
+  - Keep descriptions straightforward and unbiased. It's good to link to associated organizations and to include a link to the actual source repo(s) if distinct from the main project website.
   - Terminate descriptions with appropriate punctuation (which will almost always be a period: `.`).
   - Do not include trailing white space (except for one blank line at the end of the file).
   - Do not change line endings (be aware if your text editor or `git` configuration does this automatically).
