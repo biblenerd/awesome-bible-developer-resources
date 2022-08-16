@@ -1,4 +1,6 @@
-# Awesome Bible Developer Resources  ![Awesome](https://awesome.re/badge.svg)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+# Awesome Bible Developer Resources
+
+![Awesome](https://awesome.re/badge.svg)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)  [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 A curated list of awesome resources for developers (and other nerds) working with biblical texts and related tools.
 
@@ -12,6 +14,7 @@ For non-specialist enthusiasts (like myself), it can be challenging to get start
 - [Formats](#Formats)
   - [Comparisons](#comparisons)
   - [Conversion Tools](#conversion-tools)
+  - [CES](#ces)
   - [OSIS](#osis)
   - [TEI](#tei)
   - [Text-Fabric](#text-fabric)
@@ -29,7 +32,7 @@ For non-specialist enthusiasts (like myself), it can be challenging to get start
 
 ## Formats
 
-*Formats / encodings used specifically for storing biblical texts and/or associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.). Does not include common technical formats/types used in multiple domains that are sufficiently documented elsewhere (e.g., CSV, XML, JSON, SQLite, LaTeX, etc.).*
+*Formats / encodings used specifically for storing biblical texts and/or associated metadata (e.g., commentary, footnotes, annotations, tags, references, etc.).*
 
 ### Comparisons
 
@@ -48,6 +51,13 @@ Which format(s) should you use for your next project?
   - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
 - [Converting SFM Bibles to OSIS](https://wiki.crosswire.org/Converting_SFM_Bibles_to_OSIS) &mdash; Wiki page discussing the conversion of [USFM](#usfm) to [OSIS](#osis) format.
 
+### CES
+
+The Corpus Encoding Standard (CES) is in a SGML format (`ISO 8879:1986, Information Processing--Text and Office Systems--Standard Generalized Markup Language`) that is [TEI-compliant](#tei) and which is also available in XML format (XCES). CES is hosted by the Vassar College Department of Computer Science.
+
+- [CES Documentation](https://www.cs.vassar.edu/CES/) &mdash; Main CES docs.
+- [XML CES (XCES) Schema Documenation](https://www.cs.vassar.edu/XCES/schema/) &mdash; Main docs for XCES schema.
+
 ### OSIS
 
 Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society. Used in [SWORD Project](https://crosswire.org/sword/index.jsp) (along with [TEI](#tei)).
@@ -60,7 +70,7 @@ Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society
 
 ### TEI
 
-The Text Encoding Initiative (TEI) is a consortium which collectively develops and maintains an XML standard for the representation of texts in digital form. The TEI/XML standard is used by several notable content-based projects including:
+The Text Encoding Initiative (TEI) is a consortium which collectively develops and maintains guidelines for the representation of texts in digital form. The TEI guidelines are used by several notable content-based projects including:
 
 - [British National Corpus](http://www.natcorp.ox.ac.uk)
 - [Perseus Project](http://www.perseus.tufts.edu/)
@@ -156,7 +166,8 @@ Simplistic XML format for Bible translations.
 
 Repositories of multiple biblical corpora (i.e., doesn't fit into any single subcategory).
 
-- [Open Bibles](https://github.com/seven1m/open-bibles) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) *or* ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; GitHub repository of public domain and freely (libre) licensed Bibles in XML formats (including [USFX](#usfx), [OSIS](#osis), and [Zefania](#zefania)). Available English translations include KJV, BBE, OEB, and WEB. Also contains Hebrew Leningrad Codex, Clementine Latin Vulgate, and translations in other languages (e.g., several in Spanish, others in Cherokee, Dutch, Czech, Japanese, Portuguese, and Romanian).
+- [Open Bibles](https://github.com/seven1m/open-bibles) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) *or* ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; GitHub repository of public domain and freely (libre) licensed Bibles in XML formats (including [USFX](#usfx), [OSIS](#osis), and [Zefania](#zefania)). Available English translations include KJV, BBE, OEB, and WEB. Also contains Hebrew Leningrad Codex, Clementine Latin Vulgate, and translations in other languages.
+- [Multilingual Parallel Bible Corpus](https://github.com/christos-c/bible-corpus) [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) &mdash; A multilingual parallel corpus (aligned by verse) created from over 100 translations of the Bible intended for linguistic research and natural language processing (NLP) applications (e.g., statistical machine translation (SMT) training data, linguistic structure projected learning, etc.). There is also [a repo with associated tools](https://github.com/christos-c/bible-corpus-tools).
 - [OSIS Bibles](https://github.com/gratis-bible/bible) &mdash; A collection of freely licensed translations of biblical text in [OSIS format](#osis). Licensing varies per corpus.
 - [STEPBible Data](https://github.com/STEPBible/STEPBible-Data) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Numerous open-licensed datasets containing tagged Hebrew and Greek biblical texts saved as tab-separated value (TSV) files.
 
