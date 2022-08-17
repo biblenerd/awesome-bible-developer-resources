@@ -223,7 +223,11 @@ Simplistic XML format for Bible translations.
 
 *Biblical corpora (i.e., bible translations and primary source texts) and related resources available for **online** use via application programming interfaces (APIs).*
 
-- [API.Bible](https://scripture.api.bible) &mdash; American Bible Society (ABS) API with approximately 2500 Bible versions available across over 1600 languages. Free for non-commercial usage up to 5000 queries per day and up to 500 consecutive verses at a time.
+- [API.Bible](https://scripture.api.bible) &mdash; American Bible Society (ABS) API with approximately 2500 Bible versions available across over 1600 languages. Free for non-commercial usage with limitations.
+
+- [Biblia.com API](https://bibliaapi.com/docs/) &mdash; Faithlife / Logos Bible Software API for Bible text (multiple editions available).
+
+- [ESV API](https://api.esv.org) &mdash; English Standard Version (ESV) Bible API. Free for non-commercial usage with limitations.
 
 
 ## Other Awesome Lists
@@ -232,4 +236,4 @@ Simplistic XML format for Bible translations.
 
 - [Awesome Bible NLP](https://github.com/BibleNLP/awesome-bible-nlp) &mdash; A curated list of resources dedicated to Biblical Natural Language Processing (NLP).
 
-- [Hackathon.Bible](https://hackathon.bible) &mdash; A resource site with Bible texts & datasets for building apps and new innovations for Bible engagement.
+- [Hackathon.Bible](https://hackathon.bible) &mdash; A resource site with Bible texts ad datasets for building apps and new innovations for Bible engagement.
