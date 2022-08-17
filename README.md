@@ -236,4 +236,4 @@ Simplistic XML format for Bible translations.
 
 - [Awesome Bible NLP](https://github.com/BibleNLP/awesome-bible-nlp) &mdash; A curated list of resources dedicated to Biblical Natural Language Processing (NLP).
 
-- [Hackathon.Bible](https://hackathon.bible) &mdash; A resource site with Bible texts ad datasets for building apps and new innovations for Bible engagement.
+- [Hackathon.Bible](https://hackathon.bible) &mdash; A resource site with Bible texts and datasets for building apps and new innovations for Bible engagement.
