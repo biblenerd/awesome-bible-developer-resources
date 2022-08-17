@@ -53,11 +53,16 @@ Which format(s) should you use for your next project?
 ### Conversion Tools
 
 - [Converting SFM Bibles to OSIS](https://wiki.crosswire.org/Converting_SFM_Bibles_to_OSIS) &mdash; Wiki page discussing the conversion of [USFM](#usfm) to [OSIS](#osis) format.
+  - [usfm2osis](https://github.com/chrislit/usfm2osis) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) &mdash; Python scripts for converting USFM to OSIS XML.
+  - [u2o](https://github.com/adyeths/u2o) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) &mdash; Another Python USFM to OSIS bible format converter.
+  - [SWORD Module Tools](https://github.com/refdoc/Module-tools) &mdash; Converts USFM to SWORD module and also has tools to take regular [OSIS](#osis) Bibles and convert them into SWORD modules, along with some other OSIS-related conversions.
 
 - [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and [DBL](https://thedigitalbiblelibrary.org) [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
   - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
 
 - [SWORD to JSON Converter](https://github.com/wasdin/SWORD-to-JSON) [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) &mdash; Tool to convert SWORD modules to JSON.
+
+- [USFM to Other Formats](https://github.com/bibledit/converters) &mdash; Java utility to convert from USFM to other formats.
 
 ### CES
 
@@ -106,6 +111,7 @@ Unified Standard Format Markers (USFM) was developed within [Paratext](https://p
 - [USFM GitHub Repository](https://github.com/ubsicap/usfm) &mdash; Main USFM GitHub repo.
 - [USFM Documentation](http://ubsicap.github.io/usfm/) &mdash; USFM docs.
 - [USFM Tools](https://github.com/openenglishbible/USFM-Tools) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &mdash; Python tools for parsing and rendering USFM files.
+- [Bibledit Software](https://bibledit.org) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) &mdash; A freely-available professional Bible translation software program with a graphical user interface (GUI) for working with USFM-formatted Bible texts.
 
 ### USFX
 
@@ -156,6 +162,8 @@ Simplistic XML format for Bible translations.
 
 - [STEPBible Data](https://github.com/STEPBible/STEPBible-Data) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Numerous open-licensed datasets containing tagged Hebrew and Greek biblical texts saved as tab-separated value (TSV) files.
 
+- [SWORD Project](https://crosswire.org/sword/index.jsp) ![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg) &mdash; CrossWire Bible Society's free Bible software project. Many [modules containing Bible texts](https://crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles) (and [other resources](https://crosswire.org/sword/modules/index.jsp)) are available. Numerous [Hebrew Bible texts](https://crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles#lang_he) available.
+
 - [unfoldingWord&reg; Hebrew Bible (UHB)](https://www.unfoldingword.org/for-translators/content#UHB) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed, lexically tagged, morphologically parsed Hebrew Old Testament. Based on the [Open Scriptures Hebrew Bible](https://hb.openscriptures.org). Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/hbo_uhb/src/branch/master). Lots of [additional great resources for Bible translators](https://www.unfoldingword.org/for-translators/content) including comprehensive [translation notes](https://www.unfoldingword.org/for-translators/content#UTN), lexical resources, etc.
 
 - [Westminster Leningrad Codex (UXLC)](http://tanach.us) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Unicode/XML Leningrad Codex (UXLC). Available in XML format with [TEI](#tei) header [at tanach.us website](http://tanach.us/Pages/XMLFiles.html), along with [plaintext](http://tanach.us/Pages/TextFiles.html), [HTML](http://tanach.us/Pages/HTMLFiles.html), and [other formats](http://tanach.us/Pages/About.html).
@@ -164,6 +172,8 @@ Simplistic XML format for Bible translations.
 ### Greek
 
 - [Greek Learner Texts Project](https://greek-learner-texts.org) &mdash; A collaborative effort to produce openly-licensed, annotated texts in Ancient Greek for extensive reading. Has a section for [Biblical and Early Christian Texts](https://greek-learner-texts.org/texts/#biblical-and-early-christian-texts).
+
+- [SWORD Project](https://crosswire.org/sword/index.jsp) ![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg) &mdash; CrossWire Bible Society's free Bible software project. Many [modules containing Bible texts](https://crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles) (and [other resources](https://crosswire.org/sword/modules/index.jsp)) are available. Numerous [Greek Bible texts](https://crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles#lang_grc) available.
 
 
 #### LXX
@@ -206,6 +216,8 @@ Simplistic XML format for Bible translations.
 
 
 ### English Translations
+
+- [American Standard Version (ASV) Bible](https://github.com/openbibleinfo/American-Standard-Version-Bible) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Full text, footnotes, and formatting of the ASV Bible (1901) in [USX](#usx) format.
 
 - [Multilingual Parallel Bible Corpus](https://github.com/christos-c/bible-corpus) [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) &mdash; A multilingual parallel corpus (aligned by verse) created from over 100 translations of the Bible intended for linguistic research and natural language processing (NLP) applications (e.g., statistical machine translation (SMT) training data, linguistic structure projected learning, etc.). There is also [a repo with associated tools](https://github.com/christos-c/bible-corpus-tools).
 
