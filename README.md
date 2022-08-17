@@ -129,7 +129,7 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 Simplistic XML format for Bible translations.
 
 - [(Archived) Zefania XML Schema Documentation](https://web.archive.org/web/20180730154206/http://bgfdb.de/zefaniaxml/bml/) &mdash; Most links are now dead. This is an archived version from archive.org.
-- [Brief History of Zefania XML](https://memim.com/zefania-xml.html) &mdash; Brief discussion of the origins of Zefania XML with concise examples of it. The [German Wikipedia page](https://de.wikipedia.org/wiki/Zefania_XML) also has some helpful information including example XML&mdash;but it's in German.
+- [Brief History of Zefania XML](https://memim.com/zefania-xml.html) &mdash; Brief discussion of the origins of Zefania XML with concise examples of it. The [German Wikipedia page](https://de.wikipedia.org/wiki/Zefania_XML) also has some helpful information including example XML&mdash;but it's in German (the maintainer of this list created an English Wikipedia page that is [still in Draft](https://en.wikipedia.org/wiki/Draft:Zefania_XML) awaiting approval).
 - [Zefania Bible Reader](https://github.com/NothinRandom/Zefania-Bible) &mdash; Zefania Bible is a XML file reader program that reads XML files entering them into database, and then displaying it on a site. Accompanying website no longer appears available. [There is another online reader for German translations](http://www.mathertel.de/AJAXEngine/S03_AJAXControls/BiblePage.aspx#version=luther1912&book=1&chapter=1&vers=1) also.
 - [Zefania Bible Modules SourceForge Repository](https://sourceforge.net/projects/zefania-sharp/) &mdash; SourceForge repo of Zefania Bible translations in a variety of languages.
 
