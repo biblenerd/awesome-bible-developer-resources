@@ -120,7 +120,7 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 
 - [USX GitHub Repository](https://github.com/ubsicap/usx) &mdash; Main USX GitHub repo.
 - [USX Documentation](https://ubsicap.github.io/usx/) &mdash; USX docs.
-- [Paratext USX page](https://markups.paratext.org/usx/) &mdash; Main Paratext web page for USFM with links to its documentation.
+- [Paratext USX page](https://markups.paratext.org/usx/) &mdash; Main Paratext web page for USX with links to its documentation.
 - [Digital Bible Library (DBL)](https://thedigitalbiblelibrary.org) &mdash; United Bible Societies (UBS) online digital asset and licensing management platform. DBL gathers, validates, and safeguards a large collection of quality, standardized, digital Scripture texts and publication assets in hundreds of languages that are predominantly in USX format.
 - [DBL USX Documentation](https://app.thedigitalbiblelibrary.org/static/docs/usx/index.html) &mdash; DBL docs for USX format.
 
@@ -128,6 +128,9 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 
 Simplistic XML format for Bible translations.
 
+- [(Archived) Zefania XML Schema Documentation](https://web.archive.org/web/20180730154206/http://bgfdb.de/zefaniaxml/bml/) &mdash; Most links are now dead. This is an archived version from archive.org.
+- [Brief History of Zefania XML](https://memim.com/zefania-xml.html) &mdash; Brief discussion of the origins of Zefania XML with concise examples of it. The [German Wikipedia page](https://de.wikipedia.org/wiki/Zefania_XML) also has some helpful information including example XML&mdash;but it's in German.
+- [Zefania Bible Reader](https://github.com/NothinRandom/Zefania-Bible) &mdash; Zefania Bible is a XML file reader program that reads XML files entering them into database, and then displaying it on a site. Accompanying website no longer appears available. [There is another online reader for German translations](http://www.mathertel.de/AJAXEngine/S03_AJAXControls/BiblePage.aspx#version=luther1912&book=1&chapter=1&vers=1) also.
 - [Zefania Bible Modules SourceForge Repository](https://sourceforge.net/projects/zefania-sharp/) &mdash; SourceForge repo of Zefania Bible translations in a variety of languages.
 
 
@@ -177,11 +180,11 @@ Simplistic XML format for Bible translations.
 
 - [Berean Greek Bible](https://greekbible.org) &mdash; Critical Greek New Testament that used Nestle 1904 as its [base text](https://sites.google.com/site/nestle1904/downloads). Requires [licensing approval](https://berean.bible/licensing.htm). Numerous [available formats and related resources](https://berean.bible/downloads.htm), including [USFM](#usfm), spreadsheets, PDFs, plaintext, and other document and e-reader formats.
 
-- [Nestle 1904 Greek NT](https://github.com/biblicalhumanities/Nestle1904/) &mdash; Eberhard Nestle's 1904 GNT with various formats including morphology, lemmatization, Strong's numbers, XML markup (appears to be [OSIS](#osis) format), glosses, and base text. [Base text](https://sites.google.com/site/nestle1904/downloads).
+- [Nestle 1904 Greek NT](https://github.com/biblicalhumanities/Nestle1904/) &mdash; Eberhard Nestle's 1904 GNT with various formats including morphology, lemmatization, Strong's numbers, XML markup (appears to be [OSIS](#osis) format), and glosses. [Base text](https://sites.google.com/site/nestle1904/downloads).
 
 - [Open Greek New Testament (OGNT)](https://opengnt.com) [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) &mdash; The OGNT is a Nestle-Aland 28th edition (NA28) / NA27 equivalent text with numerous associated resources in the [GitHub repo](https://github.com/eliranwong/OpenGNT).
 
-- [Robinson's Byzantine Texts](https://byzantinetext.com) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Dr. Maurice A. Robinson's Greek texts (most with morphological parsing and Strong's numbers). Robinson uses his own format for text storage with custom parsing codes and tense-voice-mood numbers. [Documentation of this format is available](https://github.com/byztxt/robinson-documentation) along with [a library of Python tools for working with the format](https://github.com/byztxt/librobinson). Some of the notable Greek texts are listed in the below sublistings.
+- [Robinson's Greek Texts](https://byzantinetext.com) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Dr. Maurice A. Robinson's Greek texts (most with morphological parsing and Strong's numbers). Robinson uses his own format for text storage with custom parsing codes and tense-voice-mood numbers. [Documentation of this format is available](https://github.com/byztxt/robinson-documentation) along with [a library of Python tools for working with the format](https://github.com/byztxt/librobinson). Some of the notable Greek texts are listed in the below sublistings.
   - **Byzantine Texts**
     - [Antoniades Patriarchal Greek NT (PATr)](https://byzantinetext.com/study/editions/antoniades/) &mdash; The 1904 text authorized by the Eucumenical Patriarchate of Constantinople for Eastern Orthodox churches with the 1912 corrections by Professor Vasileios Antoniades of the Theological School of Chalki. [GitHub repo](https://github.com/byztxt/greektext-antoniades) contains plaintext and parsed versions with morphological parsing tags and Strong's numbers.
     - [Elzevir Greek NT](https://byzantinetext.com/study/editions/elzevir/) &mdash; 1624 Elzevir Textus Receptus GNT edition. [GitHub repo](https://github.com/byztxt/greektext-elzevir) contains plaintext and parsed versions with morphological parsing tags and Strong's numbers.
