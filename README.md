@@ -30,6 +30,7 @@ For **specialists**, sometimes it can be hard to find links to relevant resource
     - [LXX](#lxx)
     - [New Testament](#new-testament)
   - [English Translations](#english-translations)
+- [APIs](#apis)
 - [Other Awesome Lists](#other-awesome-lists)
 
 
@@ -131,7 +132,7 @@ Simplistic XML format for Bible translations.
 
 ## Biblical Corpora
 
-*Biblical corpora (i.e., bible translations and primary source texts) in various formats.*
+*Biblical corpora (i.e., bible translations and primary source texts) and related resources available for **download and offline use** in various formats.*
 
 ### Hebrew
 
@@ -140,6 +141,8 @@ Simplistic XML format for Bible translations.
 - [MACULA Hebrew Linguistic Datasets](https://github.com/Clear-Bible/macula-hebrew/) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Syntax trees, morphology, and linguistic annotations for the Hebrew Bible based on the Westminster Leningrad Codex.
 
 - [Open Bibles Hebrew Leningrad Codex](https://github.com/seven1m/open-bibles) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) *or* ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; GitHub repository of public domain and freely (libre) licensed Bibles in XML formats (including [USFX](#usfx), [OSIS](#osis), and [Zefania](#zefania)). Hebrew Leningrad Codex available in [USFX](#usfx) format.
+
+- [Open Hebrew Bible](https://github.com/eliranwong/OpenHebrewBible) &mdash; This project aligned Biblia Hebraica Stuttgartensia (BHS) with the Westminster Leningrad Codex (WLC); bridging ETCBC, OpenScriptures, and Berean data for the Hebrew Bible.
 
 - [Open Scriptures Hebrew Bible (OSHB)](https://hb.openscriptures.org) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; An open-licensed Hebrew Bible based on the [Westminster Leningrad Codex](http://www.tanach.us/Tanach.xml). Available in [OSIS](#osis) format in [source repo](https://github.com/openscriptures/morphhb).
 
@@ -159,18 +162,23 @@ Simplistic XML format for Bible translations.
 
 #### LXX
 
-- [Computer Assisted Tools for Septuagint Studies (CATSS) page](http://ccat.sas.upenn.edu/rak//catss.html) &mdash; Main page for CATSS with links to project's history, modules, bibliography, and related links. By [The International Organization for Septuagint and Cognate Studies (IOSCS)](http://ccat.sas.upenn.edu/ioscs/) at University of Pennsylvania. The [CATSS Biblical Texts](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/) are available in the CCAT Gopher text archives. 
-
+- [Computer Assisted Tools for Septuagint Studies (CATSS)](http://ccat.sas.upenn.edu/rak//catss.html) &mdash; Main page for CATSS with links to project's history, modules, bibliography, and related links. By [The International Organization for Septuagint and Cognate Studies (IOSCS)](http://ccat.sas.upenn.edu/ioscs/) at University of Pennsylvania. The [CATSS Biblical Texts](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/) are available in the CCAT Gopher text archives. 
   - [Morphological Analysis of the LXX](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/). There is also [a third-party tool](https://github.com/orenfromberg/lxxproject) that uses this data to generate a SQLite database with book, verse, and word number attributes as well as root and morphological data.
   - [LXX Greek Textual Variants](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxvar/) (and [format explanation](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxvar/0-Explan.htm)).
   - [Parallel Hebrew // Greek Text Module](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/).
+
+- [Rahlfs' Septuagint](https://github.com/eliranwong/LXX-Rahlfs-1935) [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) &mdash; 1935 edition of Rahlfs' Septuagint with Unicode characters, morphology tagging, and a variety of other integrated datasets. Based on CATSS LXX (and base text is subject to applicable copyright restrictions).
 
 - [Swete LXX Text](https://github.com/sleeptillseven/LXX-Swete/) :construction: [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) &mdash; *Partially-completed* Swete's LXX text from [First1KGreek Project](https://opengreekandlatin.github.io/First1KGreek/) (with corrections against manuscripts).
 
 
 #### New Testament
 
-- [Nestle 1904 Greek NT](https://github.com/biblicalhumanities/Nestle1904/) &mdash; Eberhard Nestle's 1904 GNT with various formats including morphology, lemmatization, and Strong's numbers; XML markup (appears to be [OSIS](#osis) format), glosses, and base text.
+- [Berean Greek Bible](https://greekbible.org) &mdash; Critical Greek New Testament that used Nestle 1904 as its [base text](https://sites.google.com/site/nestle1904/downloads). Requires [licensing approval](https://berean.bible/licensing.htm). Numerous [available formats and related resources](https://berean.bible/downloads.htm), including [USFM](#usfm), spreadsheets, PDFs, plaintext, and other document and e-reader formats.
+
+- [Nestle 1904 Greek NT](https://github.com/biblicalhumanities/Nestle1904/) &mdash; Eberhard Nestle's 1904 GNT with various formats including morphology, lemmatization, Strong's numbers, XML markup (appears to be [OSIS](#osis) format), glosses, and base text. [Base text](https://sites.google.com/site/nestle1904/downloads).
+
+- [Open Greek New Testament (OGNT)](https://opengnt.com) [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) &mdash; The OGNT is a Nestle-Aland 28th edition (NA28) / NA27 equivalent text with numerous associated resources in the [GitHub repo](https://github.com/eliranwong/OpenGNT).
 
 - [Robinson's Byzantine Texts](https://byzantinetext.com) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; Dr. Maurice A. Robinson's Greek texts (most with morphological parsing and Strong's numbers). Robinson uses his own format for text storage with custom parsing codes and tense-voice-mood numbers. [Documentation of this format is available](https://github.com/byztxt/robinson-documentation) along with [a library of Python tools for working with the format](https://github.com/byztxt/librobinson). Some of the notable Greek texts are listed in the below sublistings.
   - **Byzantine Texts**
@@ -207,9 +215,20 @@ Simplistic XML format for Bible translations.
 
 - [unfoldingWord&reg; Simplified Text (UST)](https://www.unfoldingword.org/for-translators/content#UST) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed translation, intended to provide a ‘functional’ understanding of the Bible. It increases the translator’s understanding of the text by translating theological terms as descriptive phrases. Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/en_ult/src/branch/master).
 
+- [World English Bible (WEB)](https://worldenglish.bible) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; WEB is a modern English translation that is based on the American Standard Version (ASV) of the Holy Bible first published in 1901, the Biblia Hebraica Stutgartensa (BHS) Old Testament, and the Greek Majority Text New Testament. The companion Deuterocanon/Apocrypha is derived from the Revised Version Apocrypha and the Brenton translation of the Septuagint into English. It is in draft form and is currently being edited for accuracy and readability (although the Protestant Christian canon is essentially complete). Available in numerous formats including [USFX](#usfx), [USFM](#usfm), SWORD modules, Microsoft Word XML, HTML, plaintext, PDF, e-reader formats, XeTeX, and more.
+
+
+## APIs
+
+*Biblical corpora (i.e., bible translations and primary source texts) and related resources available for **online** use via application programming interfaces (APIs).*
+
+- [API.Bible](https://scripture.api.bible) &mdash; American Bible Society (ABS) API with approximately 2500 Bible versions available across over 1600 languages. Free for non-commercial usage up to 5000 queries per day and up to 500 consecutive verses at a time.
+
 
 ## Other Awesome Lists
 
 - [Awesome Bible Data](https://github.com/jcuenod/awesome-bible-data) &mdash; List of biblical data including translations, tagged original language texts, second temple literature, early church writings, dictionaries, and cross references.
 
 - [Awesome Bible NLP](https://github.com/BibleNLP/awesome-bible-nlp) &mdash; A curated list of resources dedicated to Biblical Natural Language Processing (NLP).
+
+- [Hackathon.Bible](https://hackathon.bible) &mdash; A resource site with Bible texts & datasets for building apps & new innovations for Bible engagement.
