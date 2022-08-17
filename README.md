@@ -52,10 +52,12 @@ Which format(s) should you use for your next project?
 
 ### Conversion Tools
 
+- [Converting SFM Bibles to OSIS](https://wiki.crosswire.org/Converting_SFM_Bibles_to_OSIS) &mdash; Wiki page discussing the conversion of [USFM](#usfm) to [OSIS](#osis) format.
+
 - [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and [DBL](https://thedigitalbiblelibrary.org) [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
   - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
 
-- [Converting SFM Bibles to OSIS](https://wiki.crosswire.org/Converting_SFM_Bibles_to_OSIS) &mdash; Wiki page discussing the conversion of [USFM](#usfm) to [OSIS](#osis) format.
+- [SWORD to JSON Converter](https://github.com/wasdin/SWORD-to-JSON) [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) &mdash; Tool to convert SWORD modules to JSON.
 
 ### CES
 
@@ -215,6 +217,9 @@ Simplistic XML format for Bible translations.
 
 - [OSIS Bibles](https://github.com/gratis-bible/bible) &mdash; A collection of freely licensed translations of biblical text in [OSIS format](#osis). Licensing varies per corpus.
 
+- [SWORD Project](https://crosswire.org/sword/index.jsp) ![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg) &mdash; CrossWire Bible Society's free Bible software project. Many [modules containing Bible texts](https://crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles) (and [other resources](https://crosswire.org/sword/modules/index.jsp)) are available.
+  - [pysword library](https://gitlab.com/tgc-dk/pysword) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &mdash; A third-party native Python reader package for SWORD Project Bible modules. [Documentation](https://tgc-dk.gitlab.io/pysword/) available.
+
 - [unfoldingWord&reg; Literal Text (ULT)](https://www.unfoldingword.org/for-translators/content#ULT) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed update of the ASV, intended to provide a ‘form-centric’ understanding of the Bible. It increases the translator’s understanding of the lexical and grammatical composition of the underlying text by adhering closely to the word order and structure of the originals. Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/en_ult/src/branch/master).
 
 - [unfoldingWord&reg; Simplified Text (UST)](https://www.unfoldingword.org/for-translators/content#UST) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed translation, intended to provide a ‘functional’ understanding of the Bible. It increases the translator’s understanding of the text by translating theological terms as descriptive phrases. Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/en_ult/src/branch/master).
@@ -228,9 +233,21 @@ Simplistic XML format for Bible translations.
 
 - [API.Bible](https://scripture.api.bible) &mdash; American Bible Society (ABS) API with approximately 2500 Bible versions available across over 1600 languages. Free for non-commercial usage with limitations.
 
+- [bible-api.com](https://bible-api.com) &mdash; Freely-available JSON API to obtain Bible text with [open-sourced app](https://github.com/seven1m/bible_api) and [Bible texts](https://github.com/seven1m/open-bibles). No API key required.
+
 - [Biblia.com API](https://bibliaapi.com/docs/) &mdash; Faithlife / Logos Bible Software API for Bible text (multiple editions available).
 
+- [Bible Brain API](https://www.faithcomesbyhearing.com/audio-bible-resources/bible-brain) &mdash; Faith Comes By Hearing&reg; API providing Bible text, audio, and video.
+
 - [ESV API](https://api.esv.org) &mdash; English Standard Version (ESV) Bible API. Free for non-commercial usage with limitations.
+
+- [getBible API v2](https://github.com/getbible/v2) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) &mdash; getBible API V2. No API key required. You can [programatically obtain the list of available translations.](https://getbible.net/v2/translations.json)
+
+- [jsonBible API](https://jsonbible.com) &mdash; Freely-available Bible text API. No API key required.
+
+- [NET API](https://labs.bible.org/api_web_service) &mdash; New English Translation (NET) Bible API. Does not appear to require an API key. [NETBibleTagger tool](https://labs.bible.org/NETBibleTagger/) also available to enable Bible reference tagging for a website (converts plaintext Bible references into hyperlinks with [customizable styles](https://labs.bible.org/NETBibleTagger/configure)).
+
+- [NLT API](https://api.nlt.to) &mdash; New Living Translation (NLT) Bible API. Free for non-commercial usage with limitations. Anonymous limited use also available (without an API key).
 
 
 ## Other Awesome Lists
