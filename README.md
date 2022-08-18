@@ -83,7 +83,7 @@ Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society
 
 ### TEI
 
-The Text Encoding Initiative (TEI) is a consortium which collectively develops and maintains guidelines for the representation of texts in digital form. The TEI guidelines are used by several notable content-based projects including:
+The Text Encoding Initiative (TEI) is a consortium by the [EpiDoc international community](https://en.wikipedia.org/wiki/EpiDoc) which collectively develops and maintains guidelines for the representation of texts in digital form. The TEI guidelines are used by several notable content-based projects including:
 
 - [British National Corpus](http://www.natcorp.ox.ac.uk)
 - [Perseus Project](http://www.perseus.tufts.edu/)
@@ -267,5 +267,7 @@ Simplistic XML format for Bible translations.
 - [Awesome Bible Data](https://github.com/jcuenod/awesome-bible-data) &mdash; List of biblical data including translations, tagged original language texts, second temple literature, early church writings, dictionaries, and cross references.
 
 - [Awesome Bible NLP](https://github.com/BibleNLP/awesome-bible-nlp) &mdash; A curated list of resources dedicated to Biblical Natural Language Processing (NLP).
+
+- [Biblical Humanities Dashboard](http://biblicalhumanities.org/dashboard/) &mdash; This dashboard lists available data resources that are important for digital biblical humanities. Very well organized (bluntly, I probably would not have made this list had I found this dashboard before I started compiling this&mdash;or I would have only documented formats).
 
 - [Hackathon.Bible](https://hackathon.bible) &mdash; A resource site with Bible texts and datasets for building apps and new innovations for Bible engagement.
