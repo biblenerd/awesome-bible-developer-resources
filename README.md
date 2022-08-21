@@ -120,6 +120,7 @@ Unified Standard Format Markers (USFM) was developed within [Paratext](https://p
 - [USFM GitHub Repository](https://github.com/ubsicap/usfm) &mdash; Main USFM GitHub repo.
 - [USFM Documentation](http://ubsicap.github.io/usfm/) &mdash; USFM docs.
 - [USFM Tools](https://github.com/openenglishbible/USFM-Tools) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &mdash; Python tools for parsing and rendering USFM files.
+- [Paratext Software](https://paratext.org) &mdash; A freely-available professional Bible translation software program with a graphical user interface (GUI) for working with USFM-formatted Bible texts (can also work with [USX](#usx)).
 - [Bibledit Software](https://bibledit.org) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) &mdash; A freely-available professional Bible translation software program with a graphical user interface (GUI) for working with USFM-formatted Bible texts.
 
 ### USFX
