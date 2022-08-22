@@ -61,6 +61,8 @@ Which format(s) should you use for your next project?
 
 - [Haiola](https://haiola.org) &mdash; Accepts [USFM](#usfm), [USFX](#usfx), and [DBL](https://thedigitalbiblelibrary.org) [USX](#usx) file(s) input and outputs to a variety of user-friendly formats including (but not limited to) HTML, EPUB3, [SWORD Project](https://crosswire.org/sword/index.jsp) modules, Microsoft Word XML, and PDF.
   - [Haiola GitHub Repository](https://github.com/kahunapule/haiola) &mdash; Haiola GitHub repo.
+  
+- [ptx2pdf](https://github.com/sillsdev/ptx2pdf) &mdash; XeTeX-based macro package for typesetting [USFM](#usfm)-formatted (Paratext output) scripture files and outputting as a PDF.
 
 - [SWORD to JSON Converter](https://github.com/wasdin/SWORD-to-JSON) [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause) &mdash; Tool to convert SWORD modules to JSON.
 
@@ -146,10 +148,12 @@ Unified Scripture XML (USX) is an XML format that is closely related to [USFM](#
 
 Simplistic XML format for Bible translations. [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-- [(Archived) Zefania XML Schema Documentation](https://web.archive.org/web/20180730154206/http://bgfdb.de/zefaniaxml/bml/) &mdash; Most links are now dead. This is an archived version from archive.org.
-- [Zefania Bible Reader](https://github.com/NothinRandom/Zefania-Bible) &mdash; Zefania Bible is a XML file reader program that reads XML files entering them into database, and then displaying it on a site. Accompanying website no longer appears available. [There is another online reader for German translations](http://www.mathertel.de/AJAXEngine/S03_AJAXControls/BiblePage.aspx#version=luther1912&book=1&chapter=1&vers=1) also.
 - [Zefania Bible Modules SourceForge Repository](https://sourceforge.net/projects/zefania-sharp/) &mdash; SourceForge repo of Zefania Bible translations in a variety of languages.
+- [Zefania XML Bibles](https://github.com/kohelet-net-admin/zefania-xml-bibles) &mdash; Clone of [Zefania Bible Modules SourceForge Repository](https://sourceforge.net/projects/zefania-sharp/) with data in XML format (not inside zip files) and schema information.
 - [Zefania XML Bible Markup Language Preservation](https://github.com/biblenerd/Zefania-XML-Preservation) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) &mdash; A GitHub repository created by the maintainer of this list to store data and information related to Zefania XML for preservation purposes (because a lot of the links associated with Zefania XML are now dead).
+- [(Archived) Zefania XML Schema Documentation](https://web.archive.org/web/20180730154206/http://bgfdb.de/zefaniaxml/bml/) &mdash; Most links are now dead. This is an archived version from archive.org.
+- [Bible CLI](https://github.com/strongs-de/bible-cli) &mdash; CLI tool written in Rust to read, search, and export bible data stored in Zefania XML format, including export to JSON and serving a Bible REST API.
+- [Zefania Bible Reader](https://github.com/NothinRandom/Zefania-Bible) &mdash; Zefania Bible is a XML file reader program that reads XML files entering them into database, and then displaying it on a site. Accompanying website no longer appears available. [There is another online reader for German translations](http://www.mathertel.de/AJAXEngine/S03_AJAXControls/BiblePage.aspx#version=luther1912&book=1&chapter=1&vers=1) also.
 
 
 ## Biblical Corpora
@@ -189,6 +193,8 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 ### Greek
 
 #### LXX
+
+- [Codex Alexandrinus](https://github.com/sleeptillseven/LXX.Alex) :construction: [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; *Partially-completed* LXX Greek text according to Codex Alexandrinus. Based on text provided and digitalized by [First1KGreek Project](https://opengreekandlatin.github.io/First1KGreek/).
 
 - [Codex Sinaiticus](https://codexsinaiticus.org/en/) &mdash; Online availability of manuscript of this important fourth century Christian Bible (includes LXX and complete NT). Includes an [online manuscript transcription](https://codexsinaiticus.org/en/manuscript.aspx) and [XML version](https://codexsinaiticus.org/en/project/transcription_download.aspx) of the manuscript text (and [documentation about the transcription](https://codexsinaiticus.org/en/project/transcription.aspx)).
 
@@ -285,7 +291,7 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 
 - [ESV API](https://api.esv.org) &mdash; English Standard Version (ESV) Bible API. Free for non-commercial usage with limitations.
 
-- [getBible API v2](https://github.com/getbible/v2) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) &mdash; getBible API V2. No API key required. You can [programatically obtain the list of available translations.](https://getbible.net/v2/translations.json)
+- [getBible API v2](https://github.com/getbible/v2) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) &mdash; getBible API V2. No API key required. You can [programatically obtain the list of available translations](https://getbible.net/v2/translations.json), which are also [available for download on GitHub](https://github.com/getbible/v2).
 
 - [jsonBible API](https://jsonbible.com) &mdash; Freely-available Bible text API. No API key required.
 
