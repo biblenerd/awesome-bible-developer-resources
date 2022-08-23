@@ -202,6 +202,7 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
   - [Morphological Analysis of the LXX](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/). There is also [a third-party tool](https://github.com/orenfromberg/lxxproject) that uses this data to generate a SQLite database with book, verse, and word number attributes as well as root and morphological data.
   - [LXX Greek Textual Variants](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxvar/) (and [format explanation](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxvar/0-Explan.htm)).
   - [Parallel Hebrew // Greek Text Module](http://ccat.sas.upenn.edu/gopher/text/religion/biblical/parallel/).
+  - [CCAT Parse](https://github.com/jcuenod/ccat-parse) &mdash; Third-party tool to interpret CCAT morphology codes.
 
 - [Greek Learner Texts Project](https://greek-learner-texts.org) &mdash; A collaborative effort to produce openly-licensed, annotated texts in Ancient Greek for extensive reading. Has a section for [Biblical and Early Christian Texts](https://greek-learner-texts.org/texts/#biblical-and-early-christian-texts).
 
@@ -247,6 +248,8 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 - [STEPBible Data](https://github.com/STEPBible/STEPBible-Data) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Numerous open-licensed datasets containing tagged Hebrew and Greek biblical texts saved as tab-separated value (TSV) files.
 
 - [SWORD Project](https://crosswire.org/sword/index.jsp) ![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg) &mdash; CrossWire Bible Society's free Bible software project. Many [modules containing Bible texts](https://crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles) (and [other resources](https://crosswire.org/sword/modules/index.jsp)) are available. Numerous [Greek Bible texts](https://crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles#lang_grc) available.
+
+- [Tischendorf 8th ed. Greek NT](https://github.com/morphgnt/tischendorf-data/) &mdash; Tischendorf's 8th Editio Octavia Critica Maior with morphology, Strong's numbers, and lemmatization. Available with one word per line (with associated metadata) or in [OSIS](#osis) format.
 
 - [unfoldingWord&reg; Greek New Testament (UGNT)](https://www.unfoldingword.org/for-translators/content#UGNT) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed, lexically tagged, morphologically parsed critical Greek New Testament with full apparatus. Based on the [Bunning Heuristic Prototype (BHP)](https://github.com/greekcntr/BHP) Greek NT. Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/el-x-koine_ugnt/src/branch/master). Lots of [additional great resources for Bible translators](https://www.unfoldingword.org/for-translators/content) including comprehensive [translation notes](https://www.unfoldingword.org/for-translators/content#UTN), lexical resources, etc.
 
