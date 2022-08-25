@@ -310,7 +310,7 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 
 ## Lexical Resources
 
-*Lexica, dictionaries, and related resources for helping define words in Bible texts.*
+*Lexica, dictionaries, and related resources for helping understand words in primary-source Bible texts in the English language.*
 
 ### Hebrew Lexica
 
