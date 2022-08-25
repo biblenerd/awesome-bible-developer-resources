@@ -310,16 +310,18 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 
 ## Lexical Resources
 
-### Hebrew Lexica
+*Lexica, dictionaries, and related resources for helping define words in Bible texts.*
 
-- [Unabridged Brown-Driver-Briggs (BDB) Hebrew and English Lexicon](https://github.com/eliranwong/unabridged-BDB-Hebrew-lexicon) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; JSON and CSV formats of BDB Hebrew-English Lexicon formatted by Eliran Wong for use in [Marvel.bible](https://marvel.bible).
-  - [BDB Hebrew-English Lexicon (Enhanced)](https://github.com/unfoldingWord/Brown-Driver-Briggs-Enhanced) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Enhanced Brown-Driver-Briggs (BDB) Hebrew-English Lexicon (1906) data sets (HTML and CSV) that explicitly mark the boundaries of different senses and stems, encoding implicit typographical information (such as bold and italics) into the pragmatic categories they represent (such as primary and secondary glosses) with additional information. Based on [Unabridged BDB Hebrew Lexicon](https://github.com/eliranwong/unabridged-BDB-Hebrew-lexicon).
+### Hebrew Lexica
 
 - [Open Scriptures Hebrew Bible (OSHB) Hebrew Lexicon](https://github.com/openscriptures/HebrewLexicon) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Modular Hebrew lexicon and related resources in XML format (used in association with [OSIS](#osis) [OSHB text](https://hb.openscriptures.org)) which includes Brown-Driver-Briggs (BDB) Hebrew-English lexicon (1906), Strong's Hebrew dictionary, and a lexical index aligning identifiers for BDB, Strong's, and the Theological Wordbook of the Old Testament (TWOT).
 
 - [SHEBANQ](https://shebanq.ancient-data.org) &mdash; System for HEBrew Text: ANnotations for Queries and markup (SHEBANQ) online environment for studying the Hebrew Bible. Queries the BHSa database. Associated [GitHub repo](https://github.com/ETCBC/shebanq) and [documentation](https://github.com/ETCBC/shebanq/wiki).
 
 - [Strong's Dictionaries of Hebrew and Greek](https://github.com/openscriptures/strongs) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; XML versions of James Strong's (1890) Dictionaries of Hebrew and Greek.
+
+- [Unabridged Brown-Driver-Briggs (BDB) Hebrew and English Lexicon](https://github.com/eliranwong/unabridged-BDB-Hebrew-lexicon) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; JSON and CSV formats of BDB Hebrew-English Lexicon formatted by Eliran Wong for use in [Marvel.bible](https://marvel.bible).
+  - [BDB Hebrew-English Lexicon (Enhanced)](https://github.com/unfoldingWord/Brown-Driver-Briggs-Enhanced) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Enhanced Brown-Driver-Briggs (BDB) Hebrew-English Lexicon (1906) data sets (HTML and CSV) that explicitly mark the boundaries of different senses and stems, encoding implicit typographical information (such as bold and italics) into the pragmatic categories they represent (such as primary and secondary glosses) with additional information. Based on [Unabridged BDB Hebrew Lexicon](https://github.com/eliranwong/unabridged-BDB-Hebrew-lexicon).
 
 
 ### Greek Lexica
@@ -338,6 +340,8 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 
 
 ## Other Awesome Lists
+
+*Lists of resources prepared by others that may also be helpful for developers working with Bible texts and related resources.*
 
 - [Awesome Bible Data](https://github.com/jcuenod/awesome-bible-data) &mdash; List of biblical data including translations, tagged original language texts, second temple literature, early church writings, dictionaries, and cross references.
 
