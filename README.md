@@ -33,6 +33,9 @@ For **specialists**, sometimes it can be hard to find links to relevant resource
     - [New Testament](#new-testament)
   - [English Translations](#english-translations)
 - [APIs](#apis)
+- [Lexical Resources](#lexical-resources)
+  - [Hebrew Lexica](#hebrew-lexica)
+  - [Greek Lexica](#greek-lexica)
 - [Other Awesome Lists](#other-awesome-lists)
 
 
@@ -187,7 +190,7 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 
 - [unfoldingWord&reg; Hebrew Bible (UHB)](https://www.unfoldingword.org/for-translators/content#UHB) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; An open-licensed, lexically tagged, morphologically parsed Hebrew Old Testament. Based on the [Open Scriptures Hebrew Bible](https://hb.openscriptures.org). Available in [USFM](#usfm) format in [source repo](https://git.door43.org/unfoldingWord/hbo_uhb/src/branch/master). Lots of [additional great resources for Bible translators](https://www.unfoldingword.org/for-translators/content) including comprehensive [translation notes](https://www.unfoldingword.org/for-translators/content#UTN), lexical resources, etc.
 
-- [Unicode/XML Leningrad Codex (UXLC)](http://tanach.us) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; This Hebrew Bible (Tanach) has been derived from the WLC 4.20 (25 January 2016) provided by the [Groves Center](http://www.grovescenter.org/) and updated by suggestions from viewers through a formal and automated process. The text is maintained in Unicode character coding with XML markup and is [available in many standard formats](https://tanach.us/Pages/About.html), including XML format with [TEI](#tei) header, plaintext, HTML, and other formats. There are a lot of neat ways to visualize the text in the web tool, but notably you can color-code the various authors/sources per the Documentary Hypothesis following the source attributions presented in Richard Elliott Friedman's *Who Wrote the Bible?* book. (DH menu in the web browser).
+- [Unicode/XML Leningrad Codex (UXLC)](http://tanach.us) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; This Hebrew Bible (Tanach) has been derived from the Westminster Leningrad Codex (WLC) provided by the [Groves Center](http://www.grovescenter.org/) and updated by suggestions from viewers through a formal and automated process. The text is maintained in Unicode character coding with XML markup and is [available in many standard formats](https://tanach.us/Pages/About.html), including XML format with [TEI](#tei) header, plaintext, HTML, and other formats. There are a lot of neat ways to visualize the text in the web tool, but notably you can color-code the various authors/sources per the [Documentary Hypothesis](https://tanach.us/Pages/DH.html) following the source attributions presented in Richard Elliott Friedman's *Who Wrote the Bible? (2nd ed.)* and *The Bible with Sources Revealed (BSR)* books. (DH menu in the web browser).
 
 
 ### Greek
@@ -303,6 +306,35 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 - [NET API](https://labs.bible.org/api_web_service) &mdash; New English Translation (NET) Bible API. Does not appear to require an API key. [NETBibleTagger tool](https://labs.bible.org/NETBibleTagger/) also available to enable Bible reference tagging for a website (converts plaintext Bible references into hyperlinks with [customizable styles](https://labs.bible.org/NETBibleTagger/configure)).
 
 - [NLT API](https://api.nlt.to) &mdash; New Living Translation (NLT) Bible API. Free for non-commercial usage with limitations. Anonymous limited use also available (without an API key).
+
+
+## Lexical Resources
+
+### Hebrew Lexica
+
+- [Unabridged Brown-Driver-Briggs (BDB) Hebrew and English Lexicon](https://github.com/eliranwong/unabridged-BDB-Hebrew-lexicon) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; JSON and CSV formats of BDB Hebrew-English Lexicon formatted by Eliran Wong for use in [Marvel.bible](https://marvel.bible).
+  - [BDB Hebrew-English Lexicon (Enhanced)](https://github.com/unfoldingWord/Brown-Driver-Briggs-Enhanced) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Enhanced Brown-Driver-Briggs (BDB) Hebrew-English Lexicon (1906) data sets (HTML and CSV) that explicitly mark the boundaries of different senses and stems, encoding implicit typographical information (such as bold and italics) into the pragmatic categories they represent (such as primary and secondary glosses) with additional information. Based on [Unabridged BDB Hebrew Lexicon](https://github.com/eliranwong/unabridged-BDB-Hebrew-lexicon).
+
+- [Open Scriptures Hebrew Bible (OSHB) Hebrew Lexicon](https://github.com/openscriptures/HebrewLexicon) [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/) &mdash; Modular Hebrew lexicon and related resources in XML format (used in association with [OSIS](#osis) [OSHB text](https://hb.openscriptures.org)) which includes Brown-Driver-Briggs (BDB) Hebrew-English lexicon (1906), Strong's Hebrew dictionary, and a lexical index aligning identifiers for BDB, Strong's, and the Theological Wordbook of the Old Testament (TWOT).
+
+- [SHEBANQ](https://shebanq.ancient-data.org) &mdash; System for HEBrew Text: ANnotations for Queries and markup (SHEBANQ) online environment for studying the Hebrew Bible. Queries the BHSa database. Associated [GitHub repo](https://github.com/ETCBC/shebanq) and [documentation](https://github.com/ETCBC/shebanq/wiki).
+
+- [Strong's Dictionaries of Hebrew and Greek](https://github.com/openscriptures/strongs) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; XML versions of James Strong's (1890) Dictionaries of Hebrew and Greek.
+
+
+### Greek Lexica
+
+- [Abbot-Smith *Manual Greek Lexicon of the New Testament* (1922)](https://github.com/translatable-exegetical-tools/Abbott-Smith) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; [TEI](#tei) XML [Dictionary format](https://tei-c.org/release/doc/tei-p5-doc/en/html/DI.html) markup of G. Abbott-Smith's *A Manual Greek Lexicon of the New Testament* (New York: Scribner's, 1922). Per [biblicalhumanities.org](http://biblicalhumanities.org/dashboard/#lexicons), this is "Probably the best quality lexicon in the public domain."
+
+- [Dodson Greek-English Lexicon](https://github.com/biblicalhumanities/Dodson-Greek-Lexicon) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; John Jeffrey Dodson's Greek lexicon compiled from other public domain Greek lexica including Abbott-Smith (1922), Berry (1897), Souter (1917), and Strong (1890). Available in CSV and [TEI](#tei) XML formats. Also [available as a SWORD module](http://www.biblesupport.com/e-sword-downloads/file/10038-dodson-greek-english-lexicon/).
+
+- [Liddell-Scott-Jones (LSJ) Greek-English Lexicon](https://github.com/PerseusDL/lexica) [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; [TEI](#tei) XML format (beta code) of [LSJ9 from Perseus](http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0057), based on Henry George Liddell, Robert Scott, *A Greek-English Lexicon,* revised and augmented throughout by Sir Henry Stuart Jones with the assistance of Roderick McKenzie. (Oxford: Clarendon Press. 1940). 
+  - [LSJ: Unicode version](https://github.com/gcelano/LSJ_GreekUnicode) [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) &mdash; LSJ [TEI](#tei) XML in Unicode instead of beta code by Giuseppe Celano.
+
+- [Mounce's Concise Greek-English Dictionary of Biblical Greek](https://github.com/jcuenod/dictionary) &mdash; Copy of Mounce's dictionary repo ([original repo](https://github.com/billmounce/dictionary) no longer extant). Available in JSON and text formats.
+
+- [Strong's Dictionaries of Hebrew and Greek](https://github.com/openscriptures/strongs) ![Public Domain](https://img.shields.io/badge/Public-Domain-brightgreen) &mdash; XML versions of James Strong's (1890) Dictionaries of Hebrew and Greek.
+  - [Strong's Greek Dictionary with real Greek](https://github.com/morphgnt/strongs-dictionary-xml) [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) &mdash; Strong's Greek Dictionary in XML format by Dr. Ulrik Sandborg-Petersen with beta code and Unicode Greek along with SBL-style transliterations and corrections.
 
 
 ## Other Awesome Lists
