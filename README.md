@@ -73,14 +73,14 @@ Which format(s) should you use for your next project?
 
 ### CES
 
-The Corpus Encoding Standard (CES) is in a SGML format ([ISO 8879:1986](https://www.iso.org/standard/16387.html)) that is [TEI-compliant](#tei) and which is also available in XML format (XCES). CES is hosted by the Vassar College Department of Computer Science.
+The Corpus Encoding Standard (CES) is in a SGML format ([ISO 8879:1986](https://www.iso.org/standard/16387.html)) that is/was [TEI-conformant](#tei) and which is also available in XML format (XCES). CES is hosted by the Vassar College Department of Computer Science.
 
 - [CES Documentation](https://www.cs.vassar.edu/CES/) &mdash; Main CES docs.
 - [XML CES (XCES) Schema Documenation](https://www.cs.vassar.edu/XCES/schema/) &mdash; Main docs for XCES schema.
 
 ### OSIS
 
-Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society. Used in [SWORD Project](https://crosswire.org/sword/index.jsp) (along with [TEI](#tei)).
+Open Scripture Information Standard (OSIS) XML format by CrossWire Bible Society. Used in [SWORD Project](https://crosswire.org/sword/index.jsp) (along with [TEI](#tei)). OSIS is closely related to [TEI](#tei) but not necessarily conformant (it is more so a [customization](https://www.ibiblio.org/bgreek/forum/viewtopic.php?p=37997#p37997) of [TEI](#tei)).
 
 - [CrossWire Bible Society OSIS page](https://crosswire.org/osis/) &mdash; Contains schema, manual, documentation, and tutorial.
 - [OSIS Tutorial](https://wiki.crosswire.org/OSIS_Tutorial) &mdash; Walks through creation of a basic OSIS XML document.
