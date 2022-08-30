@@ -97,7 +97,7 @@ The Potsdamer Austauschformat Linguistischer Annotationen / Potsdam Interchange 
 
 ### TEI
 
-The Text Encoding Initiative (TEI) is a consortium by the [EpiDoc international community](https://en.wikipedia.org/wiki/EpiDoc) which collectively develops and maintains guidelines for the representation of texts in digital form. The TEI guidelines are used by several notable content-based projects including:
+The Text Encoding Initiative (TEI) is a consortium which collectively develops and maintains guidelines for the representation of texts in digital form. The TEI guidelines are used by several notable content-based projects including:
 
 - [British National Corpus](http://www.natcorp.ox.ac.uk)
 - [Perseus Project](http://www.perseus.tufts.edu/)
