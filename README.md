@@ -222,7 +222,7 @@ Simplistic XML format for Bible translations. [![License: GPL v3](https://img.sh
 
 #### New Testament
 
-- [Berean Greek Bible](https://greekbible.org) &mdash; Critical Greek New Testament that used Nestle 1904 as its [base text](https://sites.google.com/site/nestle1904/downloads). Requires [licensing approval](https://berean.bible/licensing.htm). Numerous [available formats and related resources](https://berean.bible/downloads.htm), including [USFM](#usfm), spreadsheets, PDFs, plaintext, and other document and e-reader formats.
+- [Berean Greek Bible](https://greekbible.org) &mdash; Critical Greek New Testament that used Nestle 1904 as its [base text](https://sites.google.com/site/nestle1904/downloads). Numerous [available formats and related resources](https://berean.bible/downloads.htm), including [USFM](#usfm), spreadsheets, PDFs, plaintext, and other document and e-reader formats.
 
 - [Bunning Heuristic Prototype (BHP) Greek NT](https://greekcntr.org/resources/index.htm) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) &mdash; The BHP GNT was created by Alan Bunning for the [Center for New Testament Restoration (CNTR)](https://greekcntr.org/home/index.htm) as a preliminary template computer-generated text. [Documentation](https://greekcntr.org/resources/BHP_Introduction.pdf). The data are available on [the CNTR website](https://greekcntr.org/resources/BHP_Data.txt) and in [a GitHub repo](https://github.com/greekcntr/BHP).
 
